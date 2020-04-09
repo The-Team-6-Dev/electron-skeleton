@@ -1,0 +1,76 @@
+.container-header {
+    padding: 10px;
+    border-bottom: 1px solid #716b6b;
+    margin-bottom: 20px;
+}
+
+.container-content table {
+    font-family: 'Exo 2', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+.container-content table td, .container-content table th {
+    padding: 6px;
+    padding-left: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.container-content table tr:nth-child(even){background-color: #f2f2f2;}
+
+.container-content table tr:hover {background-color: #ddd;}
+.container-content .container-main-block { border: 1px solid #CCC; height: 435px;}
+.container-content .container-status-block {
+    height: 170px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.container-content .search-block .search {
+    width: 98.9%;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #ccc;
+    height: 30px;
+    font-size: 15px;
+    font-family: 'Exo 2', sans-serif;
+    padding-left: 10px;
+    color: #3e3e3e;
+}
+
+.container-content .value-block {
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  /* Loade */
+  #loader {
+    position: absolute;
+    background-color: rgba(6, 6, 6, 0.1);
+    height: 400px;
+    width: 97.6%;
+  }
